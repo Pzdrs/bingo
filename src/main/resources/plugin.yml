@@ -1,0 +1,18 @@
+name: Bingo
+version: ${project.version}
+main: me.pzdrs.bingo.Bingo
+api-version: 1.16
+authors: [Pzdrs]
+description: A Bingo minigame
+
+commands:
+  bingo:
+    usage: /<command> [subcommand] [player]
+    description: The main command
+    aliases:
+      - b
+  top:
+    usage: /<command>
+    description: Teleports you to the highest block above you
+    aliases:
+      - t
